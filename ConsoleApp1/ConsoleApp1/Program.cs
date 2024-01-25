@@ -6,10 +6,22 @@ class HelloWorld
     {
         Massive_1 mas1 = new Massive_1(5);
         mas1.ShowArray();
+        mas1.AverageValue();
+        mas1.Morethan100();
+        mas1.ArrayWithoutRepeat();
+        
         Massive_2 mas2 = new Massive_2(4,3);
         mas2.AverageValue();
+        mas2.ShowMatrix();
+        mas2.ReverseNatrix();
+        mas2.Determined();
+        
         Massive_3 mas3 = new Massive_3(3);
         mas3.ShowArray();
+        mas3.AverageValue();
+        mas3.AverageEveryValue();
+        mas3.ChangeItem();
+        
     }
 }
 internal class Massive_1
