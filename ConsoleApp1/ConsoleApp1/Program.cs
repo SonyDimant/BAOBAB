@@ -198,7 +198,7 @@ class Massive_2
 
     public void ShowMatrix()
     {
-        for (int i = 0; i < _array.GetUpperBound(0) + 1; i++)
+        for (int i = 0; i < _array.GetLength(0) + 1; i++)
         {
             for (int j = 0; j < _array.Length / (_array.GetUpperBound(0) + 1); j++)
             {
@@ -210,9 +210,9 @@ class Massive_2
 
     public void ReverseNatrix()
     {
-        for (int i = 0; i < _array.GetUpperBound(0) + 1; i++)
+        for (int i = 0; i < _array.GetLength(0) + 1; i++)
         {
-            for (int j = 0; j < _array.Length / (_array.GetUpperBound(0) + 1); j++)
+            for (int j = 0; j < _array.Length / (_array.GetLength(0) + 1); j++)
             {
                 if (i % 2 == 0)
                 {
